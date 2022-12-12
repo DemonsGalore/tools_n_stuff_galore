@@ -1,0 +1,25 @@
+{
+    "name": "tools_n_stuff_galore",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DemonsGalore/tools_n_stuff_galore.git"
+    },
+    "keywords": [],
+    "author": "Andreas Stopat",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DemonsGalore/tools_n_stuff_galore/issues"
+    },
+    "homepage": "https://github.com/DemonsGalore/tools_n_stuff_galore#readme",
+    "devDependencies": {
+        "@types/node": "^18.11.13",
+        "typescript": "^4.9.4"
+    }
+}
