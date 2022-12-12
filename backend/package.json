@@ -1,5 +1,5 @@
 {
-    "name": "toolsnstuffgalore",
+    "name": "backend",
     "version": "0.1.0",
     "author": "Andreas Stopat",
     "private": true,
@@ -15,18 +15,12 @@
     },
     "homepage": "https://github.com/DemonsGalore/tools_n_stuff_galore#readme",
     "type": "module",
+    "main": "src/index.ts",
     "scripts": {
-        "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-        "prettier": "npx prettier --write .",
-        "postinstall": "cd frontend && npm i && cd ../backend && npm i && cd .."
+        "build": "tsc"
     },
     "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.46.1",
-        "@typescript-eslint/parser": "^5.46.1",
-        "eslint": "^8.29.0",
-        "eslint-config-prettier": "^8.5.0",
-        "eslint-plugin-react": "^7.31.11",
-        "prettier": "^2.8.1",
+        "@types/node": "^18.11.13",
         "typescript": "^4.9.4"
     }
 }
